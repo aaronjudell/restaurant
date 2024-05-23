@@ -7,12 +7,10 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  mode: 'production',
   plugins: [
     new HtmlWebpackPlugin({
-        title: 'The Ace Restaurant',
-        filename: 'index.html',
-        inject: 'head',
-        scriptLoading: 'defer',
+        template: 'src/index.html',
     })
   ]
 };
