@@ -1,1 +1,3 @@
-console.log('This shows that the build runs properly');
+import { createHome } from './home.js';
+
+createHome();
