@@ -11,3 +11,8 @@ document.getElementById('home-btn').addEventListener('click', (e) => {
 document.getElementById('menu-btn').addEventListener('click', (e) => {
     createMenu();
 });
+
+document.getElementById('about-btn').addEventListener('click',
+(e) => {
+    createAbout();
+});
